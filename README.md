@@ -12,8 +12,8 @@ from email.header import Header
 from email.utils import formatdate
 
 charset = 'ISO-2022-JP'
-msg = MIMEText('ƒTƒ“ƒvƒ‹', 'plain', charset)
-msg['Subject'] = Header('Œ–¼', charset)
+msg = MIMEText('Sample', 'plain', charset)
+msg['Subject'] = Header('Test', charset)
 msg['From'] = 'xxx@xxx.com'
 msg['To'] = 'xxx@xxx.com'
 msg['Date'] = formatdate()

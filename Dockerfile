@@ -1,4 +1,3 @@
-#FROM debian:jessie
 FROM tsutomu7/ubuntu-essential
 
 ADD bin.tgz /bin/
